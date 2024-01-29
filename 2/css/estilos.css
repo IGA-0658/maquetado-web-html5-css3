@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap');
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #04146c;
+    background-color: #fff;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    /* border: 1px solid black; */
+    align-items: center;
+    margin: auto;
+    margin-top: 50px;
+    
+}
+
+#pal {
+    width: 330px;
+    height: 330px;
+}
+
+#tex {
+    /* display: flex;
+    flex-direction: column;
+    width: 50%; */
+    margin-left: 5px;
+    margin-right: 0px;
+    
+}
+
+div { 
+    /* margin-right: 5px;  */
+    width: 30%;
+}
+
+h1 {
+    font-weight: 700;
+    font-size: 4em;
+    color: #0a2ff1;
+}
+
+#puno {
+    font-weight: 300;
+    font-size: 2em;
+}
+
+#punt {
+    width: 40%;
+}
+
+p span {
+    font-weight: 700;
+}
+
+/* 
+SOLUCION
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap');
+body{ font-family: 'Roboto', sans-serif;}
+
+h1 { font-size: 64px; color: #0a2ff1; font-weight: 700; }
+
+p { font-weight:400; font-size: 16px; color: #04146c;}
+
+p span { font-weight: 700;}
+
+#parrafo { font-weight: 300;font-size:32px;}
+#imagen { width: 30%;}
+main { display: flex; margin: auto; justify-content:center; align-items: center;}
+div { margin-right: 5px; width: 30%;}
+
+*/
+
+/* lo habia hecho con un div que continene a otros dos en lugar del main, los divs me permiten acomodarlo mejor si quiero */

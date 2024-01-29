@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,700;0,900;1,300&display=swap');
+
+@font-face { src: url('../fuentes/coolvetica\ rg.otf'); font-family: miFuente; font-weigth: bold;}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 20px; /* 24px */
+    color: #04146c;
+    background-color: #fff;
+    margin: auto;
+    align-items: center;
+}
+
+main {
+    width: 95%;
+    margin-left: auto;
+    margin-right: 0;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+header {
+    margin-left: 10px;
+}
+
+h1 {
+    font-family: 'miFuente';
+    font-size: 100px; /* 120px */
+    color: #0a2ff1;
+
+}
+
+h2 {
+    font-weight: 300;
+    font-size: 34px; /* 40px */
+    margin-top: 40px;
+}
+
+h2 span {
+    font-weight: 700;
+
+}
+
+img {
+    width: 150px;
+}
+
+h3 {
+    font-weight: 300;
+    font-style: italic;
+    font-size: 20px;
+    margin-top: 15px;
+ }
+
+ h4 {
+    font-weight: 900;
+    font-size: 20px;
+    margin-top: 15px;
+ }
+
+ #testi {
+     display: flex;
+     justify-content: space-between;
+     flex-wrap: wrap;
+     margin-top: 30px;
+     
+ }
+
+ article {
+     background-color: #eff2ff;
+     width: 31%;
+     padding: 15px 25px 25px 15px;
+ }
+
+ p {
+     /* text-align: justify; */
+     margin-top: 15px;
+ }
+
+ /* 
+ SOLUCION
+
+ @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,700;0,900;1,300&display=swap');
+@font-face {
+    font-family: miFuente;
+    src: url(../fuentes/coolvetica.otf);
+    font-weight: bold;
+}
+
+body {font-family: 'Roboto', sans-serif; }
+h1 { font-family: miFuente; font-weight: bold; font-size: 120px; color:#0a2ff1;}
+header p { font-size: 40px; color: #04146c;font-weight: 300;}
+
+header p span { font-weight: 700;}
+
+div img { width:30%;}
+main { display: flex; justify-content: space-evenly;}
+div { width: 25%; background-color: #eff2ff; padding: 1em;}
+
+div h3, div p, div h2 { font-size: 24px; color: #04146c;}
+div h2 { font-weight: 300; font-style: italic;}
+div h3 { font-weight:900; }
+div p  { font-weight: 400;}
+ */

@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@400;700;900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: 'Mulish', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #04146c;
+    background-color: #fff;
+}
+h1 {
+    font-weight: 900;
+    font-size: 40px;
+    border-bottom: 1px solid #04146c;
+    margin-top: 20px;
+}
+div {
+    width: 13%;
+    height: auto;
+    /* border: 1px solid black; */
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+main {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 20px;
+    width: 100%;
+    
+}
+img {
+    width: 50%;
+    margin: auto;
+    
+}
+
+/* SOLUCION
+
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@400;900&display=swap');
+
+body { font-family: 'Mulish', sans-serif; color: #04146c; font-size: 40px;}
+
+p { margin: 0;}
+h1 { font-weight: 900; border-bottom: 1px solid; font-size: 54px; }
+img { width: 70%;}
+main { display: flex; justify-content: space-evenly; width: 100%;}
+div { display: flex; flex-direction: column; align-items: center; justify-content: center; text-align: center;}
+
+*/

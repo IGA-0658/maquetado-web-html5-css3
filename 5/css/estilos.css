@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,700;0,900;1,300&display=swap');
+
+@font-face { src: url('../fuentes/coolvetica.otf'); font-family: miFuente; font-weigth: bold;}
+
+/* *{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+} */
+
+body {
+    background-color: #fff;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 21px;
+    color: #04146c;
+}
+
+main {
+    width: 95%;
+    margin: auto;
+    
+}
+
+h1 {
+    font-family: 'miFuente';
+    font-size: 48px;
+    color: #0a2ff1;
+    margin-left: 0px;
+}
+
+#suno {
+    width: 60%;
+    margin: auto;
+    text-align: left;
+}
+
+#sdos {
+    background-color: #eff2ff;
+    width: 60%;
+    box-shadow: 5px 5px 20px rgba(0,0,0,0.5);
+    padding: 2em;
+    border-radius: 15px;
+    text-align: center;
+    margin: auto;
+    /* display: flex;
+    flex-direction: column; 
+    justify-content: center; */
+    
+}
+
+h2 {
+    font-weight: 700;
+    font-size: 29px;
+    color: #0a2ff1;
+}
+
+p {
+    font-weight: 300;
+    font-size: 28px;
+}
+
+#iuno{
+    width: 15%;
+}
+
+#idos {
+    width: 10%;
+    vertical-align: middle;
+}
+
+#itres {
+    width: 20%;
+    vertical-align: middle;
+}
+
+h3 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 50px;
+    width:100%;
+    line-height: 50px;
+    font-size: 18px; /* orig 21 */
+}
+
+/* SOLUCION
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap');
+@font-face {
+    font-family: miFuente;
+
+    src: url(../fuentes/coolvetica.otf);
+    font-weight: bold;
+}
+
+
+body { font-family: 'Roboto', sans-serif;}
+h1 { font-family: miFuente; font-size: 48px; color: #0a2ff1; }
+
+section { text-align:center; background-color: #eff2ff; border-radius: 15px; display: flex; flex-direction: column; justify-content: center; align-items: center; box-shadow: 5px 5px 20px rgba(0,0,0,0.5); width: 60%; padding:2em;}
+h2 { font-size: 30px; font-weight:700; color: #0a2ff1;}
+section img { width: 15%; }
+p { font-size: 28px; color: #04146c; font-weight: 300;}
+
+.especial { font-size: 21px; font-weight: 400;}
+.especial img { width: 10%; vertical-align: middle; margin-right: 2px;}
+#identificadores { width: 20%;}
+body { font-family: 'Roboto', sans-serif;}
+
+section div { display: flex; justify-content: space-around; width: 100%; }
+
+
+*/
+

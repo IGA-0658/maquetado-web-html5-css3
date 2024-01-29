@@ -1,0 +1,84 @@
+
+/* @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap'); */
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap');
+
+@font-face { src: url('../fuentes/coolvetica\ rg.otf'); font-family: miFuente; font-weigth: 400;}
+
+
+body {
+    background-color: #fff;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 40px;
+    color: #04146c;
+    
+}
+
+div {
+    text-align: center;
+    /* border: 1px solid black; */
+}
+
+h1 {
+    font-family: 'miFuente';
+    font-size: 120px;
+    color: #0a2ff1;
+}
+
+h2 {
+    font-weight: 300;
+}
+
+button {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 40px;
+    border: none;
+    display: block; /* encolumno botones */
+    margin-left: auto; /* los alineo */
+    margin-right: auto;
+}
+
+#bot1 {
+    background-color: #0a2ff1;
+    color: #fff;
+    border: 3px solid #0a2ff1;
+    width: 500px;
+    height: 70px;
+}
+#bot2 {
+    background-color: #fff;
+    color: #04146c;
+    margin-top: 20px;
+    border: 3px solid #0a2ff1;
+    width: 500px;
+    height: 70px;
+    margin-bottom: 20px;
+}
+
+
+/* 
+SOLUCION
+
+@font-face {
+    font-family: miFuente1;
+    src: url(../fuentes/coolvetica.otf);
+    font-weight:bold;
+}
+
+@font-face {
+    font-family: miFuente2;
+    src: url(../fuentes/Roboto-Light.ttf);
+    font-weight:regular;
+}
+* { box-sizing: border-box;}
+
+body { text-align: center;}
+
+p, button { font-size:40px;color: #04146c; font-family:miFuente2; }
+h1 { font-size: 120px; color: #0a2ff1; font-family:miFuente1;}
+button { background-color: #0a2ff1; color: white; border:3px solid #0a2ff1; display: block; margin:auto; padding:20px;margin-bottom:20px; }
+#btn { background-color: white; color: #04146c;}
+
+*/
